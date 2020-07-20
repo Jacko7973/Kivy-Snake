@@ -1,0 +1,22 @@
+<P>:
+    Button:
+        id: 'saveBut'
+        text: 'Save'
+        size_hint: 0.8, 0.2
+        pos_hint: {'x': 0.1, 'y': 0.7}
+        on_press: root.saveButton()
+    Button:
+        text: 'Load'
+        size_hint: 0.8, 0.2
+        pos_hint: {'x': 0.1, 'y': 0.5}
+        on_press: root.loadButton()
+    Button:
+        text: 'Plot Results'
+        size_hint: 0.8, 0.2
+        pos_hint: {'x': 0.1, 'y': 0.3}
+        on_press: root.plotButton()
+    Button:
+        text: 'Toggle Stats'
+        size_hint: 0.8, 0.2
+        pos_hint: {'x': 0.1, 'y': 0.1}
+        on_press: root.toggleStats()
