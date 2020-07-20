@@ -1,5 +1,5 @@
 # Kivy-Snake
-Snake game in python using Kivy
+Simple tutorial for Snake in Python using Kivy
 
 Dependencies:
  - Kivy
